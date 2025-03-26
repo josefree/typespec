@@ -2,8 +2,8 @@
 # Change versionKind to one of: internal, fix, dependencies, feature, deprecation, breaking
 changeKind: internal
 packages:
-  - "@typespec/spec-api"
-  - "@typespec/spector"
+  - "@typespec/internal-build-utils"
+  - typespec-vscode
 ---
 
-Fix regression with spector
+Update all implicit dependencies in lock file

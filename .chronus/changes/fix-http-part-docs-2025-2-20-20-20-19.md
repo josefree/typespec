@@ -1,8 +1,8 @@
 ---
 # Change versionKind to one of: internal, fix, dependencies, feature, deprecation, breaking
-changeKind: fix
+changeKind: feature
 packages:
-  - "@typespec/http-specs"
+  - "@typespec/http"
 ---
 
-Fix specs to handle body correctly with new spector change
+[API] Expose `property?` on `HttpOperationPart`
